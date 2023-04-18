@@ -1,0 +1,119 @@
+
+
+.body{
+  background-color:#460402;
+}
+.wave{
+
+  animation-name: wave-animation; 
+   /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: bolder;
+
+}
+a:visited {
+  text-decoration:none;
+  font-size: 50px;
+  color:grey;
+  padding-top: 50px;
+}
+
+a:hover {
+  color: white;
+  text-decoration:none;
+}
+h1{
+  font-size:100px;
+  margin: 0px;
+  padding-left: 50px;
+  position: absolute;
+  top: 15%;
+}
+p{
+  text-align: left;
+  margin: 0px;
+}
+.square{
+  text-align: center;
+  color: ghostwhite;
+  padding-left:20px;
+}
+.rect{
+  height:fit-content;
+  width: fit-content;
+  color: darkslategrey;
+  background-color: ghostwhite;
+  border-radius: 10px;
+  padding-left:10px ;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+ul{
+  padding-left: 350px;
+  position: absolute;
+  top: 10px;
+  color: lightgray;
+
+}
+.full{
+  height:500px;
+  width: 1000px;
+  color: darkslategrey;
+  background-color:#460402;;
+  border-radius: 10px;
+  padding-left:10px ;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.contact{
+        text-decoration: none;
+        border: 0.2px solid white;
+        color: white;
+        background:#460402 ;
+        padding: 5px;
+        border-radius: 10px;
+        position: absolute;
+        left: 40%;
+        top: 72%;
+        font: bold;
+}
+.contact:hover {
+  text-decoration: none;
+  color:#460402 ;
+
+}
+.icon{
+  position: absolute;
+  left: 39%;
+        top: 80%;
+        font: bold
+      }
